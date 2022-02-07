@@ -139,7 +139,7 @@ select * from dbsix.dbo.JetBrainsUSD_settlement_detail_report_batch_142
   group by  a.MERCHANT_ACCOUNT, a.BATCH_NUMBER
   order by  a.MERCHANT_ACCOUNT, a.BATCH_NUMBER
 
-  /* Here is final table with all transactions with Netsuite/Gateway difference and its reasons (there are only 2 reasons) */
+  /* Here is final table with all transactions with Netsuite/Gateway difference and its reasons */
   /* US - 139,141 - missing batch number in Netsuite
      EU - 138,139 - missing some transactions in Netsuite, either payments and refunds
 	 EU - 140 - wrong transaction dates on Netsuite
